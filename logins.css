@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: transparent;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  right: 250px;
+  bottom: 280px;
+  width: 250px;
+  font-family: sans-serif;
+  font-weight: bold;
+	
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top:30;
+  bottom: 170px;
+  right: 70px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: transparent;
+}
+.form-container a {
+    color: black;
+	outline:none;
+	font-size:18px;
+	text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.hero-image {
+    background: url(./image/bg7.jpg) no-repeat center;
+    top: 05%;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    top: 05%;
+    color: #f0f8ff;
+}
+
+.hero-text h1 {
+    left: 800px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.hero-text h3 {
+    left: 200px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.hero-text h2 {
+    font-weight: bold;
+    font-size: 30px;
+    left: 400px;
+}
+
+.hero-text a {
+    text-align: left;
+    font-weight: bold;
+	color: white;
+	outline:none;
+	text-decoration: none;
+    font-family: sans-serif;
+}
+
+.stud-button {
+  background-color: transparent;
+  color: black;
+  padding: 1px 2px;
+  border: none;
+  width:250px;
+}
+.admin-button {
+  background-color: transparent;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+}
+
+

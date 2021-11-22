@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.heading {
+    margin-top: 25px;
+    margin-left: 320px;
+    border: 10px;
+    border-style: outset;
+    margin-right: 30px;
+}
+
+.heading h1 {
+    margin-left: 15px;
+    margin-top: 03px;
+    padding: 3px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+/* Left and right column */
+
+.column.side {
+    float: center;
+    width: 25%;
+    background-color: #f0f8ff;
+    border: 5px solid black;
+    opacity: 0.9;
+    width: 280px;
+    outline: none;
+    box-sizing: absolute;
+    padding: 10px;
+    height: 450px;
+}
+
+
+/* Middle column */
+
+.column.middle {
+	margin-top:40px;
+	margin-left:190px;
+	background-image: url("./image/bg20.jpg");
+	background-size: cover;
+    background-position: fixed;
+	width: 75%;
+	
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column.side,
+    .column.middle {
+        width: 100%;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 100%;
+    word-wrap: break-word;
+	border-radius:20px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    color: black;
+    word-wrap: break-word;
+}
+
+tr:nth-child(odd) {
+    color: #black;
+}
+
+
+/* Add padding to containers */
+
+.container {
+   border:10px solid black;
+}
+
+.container:nth-child(even) {
+    background-color: #dddddd;
+    color: black;
+    word-wrap: break-word;
+}
+
+.container:nth-child(odd) {
+    color: black;
+}
+
+.container col-12 {
+    text-align: center;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date] {
+    padding: 15px;
+	padding-right:50%;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    margin-left: 0px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=date]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+
+hr {
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+td a {
+    color: black;
+}
+
+
+/* Set a style for the submit button */
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0px;
+    margin-left: 450px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+/* Add a blue text color to links */
+
+a {
+    color: dodgerblue;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}

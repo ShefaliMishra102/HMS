@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    border: 1px solid #ccc;
+}
+
+.nav-item p {
+    
+    font-size: 	20px;
+	height:0px;
+	margin-top:05px;
+}
+
+.navbar a {
+    
+    font-size: 20px;
+	margin-left:10px;
+}
+
+/*.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+/*.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+/*.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Header/Blog Title */
+
+.header {
+    padding: 0px;
+    height: 170px;
+    text-align: center;
+    background-image: url(./image/bg31.jpg);
+    background-size: cover;
+    font-family: Bradley Hand ITC;
+    border: 3px solid #ccc;
+}
+
+.header h2 {
+    font-size: 50px;
+    color: black;
+}
+
+.header p {
+    color: black;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    width: 20%;
+    height: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+	outline: none;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 10px 25px;
+    width: 100%;
+    border: 5px;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-bottom: 2px solid #ccc;
+    font-size: 17px;
+}
+
+
+.tab button a{
+	outline:none;
+	text-decoration: none;
+} 
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
