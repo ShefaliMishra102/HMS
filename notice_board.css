@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.title_reg h1 {
+    margin-top: 22px;
+    margin-bottom: 0px;
+    font-size: 65px;
+    font-family: Algerian;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.borderimg {
+    border: 1px solid transparent;
+    padding: 1px;
+    border-image: url(./image/border1.png) 30 stretch;
+    border-width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+table {
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+th,
+td {
+    font: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=file],
+textarea,
+select,
+option {
+    width: 500px;
+    padding: 15px;
+    margin: 15px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    margin-left: 0px;
+    margin-right: 120px;
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+}
+
+input[type=text]:focus,
+textarea:focus,
+select:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for the submit button */
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+/* Set a style for the clear button */
+
+.registerbtn1 {
+    background-color: #f6a600;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+}
+
+.registerbtn1:hover {
+    opacity: 1;
+}

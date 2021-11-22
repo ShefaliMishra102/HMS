@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    border: 1px solid #ccc;
+}
+
+.namehead {
+    margin-left: 800px;
+    margin-top: 20px;
+    font-family: Brush Script MT;
+    font-size: 28px;
+}
+
+.navbar a {
+    font-family: Brush Script MT;
+    font-size: 28px;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    width: 20%;
+    height: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 09px 25px;
+    width: 100%;
+    border: 5px;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-bottom: 2px solid #ccc;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+.tab button a{
+	outline:none;
+	text-decoration: none;
+} 
+/* Style the tab content */
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
